@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif !important;
+}
+
+.swiper-pagination-bullet {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #4040407b;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 50% !important;
+  padding: 40px 40px !important;
+  scale: 0.5;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #f0f0f0;
+}
+
+.swiper-button-next {
+  right: 0px;
+}
+
+.swiper-button-prev {
+  left: 0px;
+}
